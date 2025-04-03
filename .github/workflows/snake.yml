@@ -42,6 +42,7 @@ jobs:
 
       # Faz commit e push das alterações
       - name: Commit e Push Automático
+        continue-on-error: true
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Atualização automática do Snake Game"
@@ -52,7 +53,7 @@ jobs:
           push_options: --force
           commit_author: "GitHub Actions <actions@github.com>"
           skip_dirty_check: true
-          fail_on_empty: false
+
 
 
       # Publica os arquivos no GitHub Pages
