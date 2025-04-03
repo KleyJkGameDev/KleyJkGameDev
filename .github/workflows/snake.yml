@@ -52,6 +52,8 @@ jobs:
           push_options: --force
           commit_author: "GitHub Actions <actions@github.com>"
           skip_dirty_check: true
+          fail_on_empty: false
+
 
       # Publica os arquivos no GitHub Pages
       - name: Publicar no GitHub Pages
