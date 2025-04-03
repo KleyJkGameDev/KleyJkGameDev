@@ -1,57 +1,59 @@
-# Nome da Actions:  
+# Nome da Action
 name: Snake Game
 
-# Controlador do tempo que sera feito a atualização dos arquivos.
+# Controlador do tempo para atualização automática
 on:
   schedule:
-      # Será atualizado a cada 5 horas.
+    # Atualiza a cada 5 horas
     - cron: "0 */5 * * *"
-
-# Permite executar na na lista de Actions (utilizado para testes de build).
+  # Permite rodar manualmente via Actions
   workflow_dispatch:
 
-# Regras
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
 
-    # Checks repo under $GITHUB_WORKSHOP, so your job can access it
-      - uses: actions/checkout@v4
+      # Faz checkout do repositório
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
 
-    # Repositorio que será utilizado para gerar os arquivos.
-      - uses: Platane/snk@master
+      # Configura autenticação manualmente para evitar erro 403
+      - name: Configurar autenticação Git
+        run: |
+          git config --global user.name "KleyJkGameDev"
+          git config --global user.email "kleyjkdev62@gmail.com"
+          git remote set-url origin https://KleyJkGameDev:${{ secrets.GH_PAT }}@github.com/KleyJkGameDev/KleyJkGameDev.git
+
+      # Gera o Snake Game para o perfil do GitHub
+      - name: Gerar Snake Game
+        uses: Platane/snk@master
         id: snake-gif
         with:
-          github_user_name: KleyJkGameDev #Seu usuario
+          github_user_name: KleyJkGameDev # Seu usuário
           gif_out_path: dist/github-contribution-grid-snake.gif
           svg_out_path: dist/github-contribution-grid-snake.svg
 
-      - run: git status
-      - name: Setup Git
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git remote set-url origin https://KleyJkGameDev:${{ secrets.GH_PAT }}@github.com/KleyJkGameDev/KleyJkGameDev.git
+      # Mostra status do Git
+      - name: Verificar mudanças no Git
+        run: git status
 
-      # Para as atualizações.
-      - name: Commit and push changes
+      # Faz commit e push das alterações
+      - name: Commit e Push Automático
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Atualização automática do Snake Game"
           branch: main
-          commit_user_name: "github-actions[bot]"
-          commit_user_email: "github-actions[bot]@users.noreply.github.com"
+          commit_user_name: "KleyJkGameDev"
+          commit_user_email: "kleyjkdev62@gmail.com"
           repository: .
           push_options: --force
-          commit_author: "GitHub Actions <actions@github.com>"
+          commit_author: "KleyJkGameDev <kleyjkdev62@gmail.com>"
 
-
-
-
-      - uses: crazy-max/ghaction-github-pages@v2.1.3
+      # Publica os arquivos no GitHub Pages
+      - name: Publicar no GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v2.1.3
         with:
-          # the output branch we mentioned above
           target_branch: output
           build_dir: dist
         env:
