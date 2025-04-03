@@ -17,20 +17,22 @@ jobs:
       # Faz checkout do repositório
       - name: Checkout do repositório
         uses: actions/checkout@v4
+        with:
+          persist-credentials: false
 
       # Configura autenticação manualmente para evitar erro 403
       - name: Configurar autenticação Git
         run: |
-          git config --global user.name "KleyJkGameDev"
-          git config --global user.email "kleyjkdev62@gmail.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git remote set-url origin https://KleyJkGameDev:${{ secrets.GH_PAT }}@github.com/KleyJkGameDev/KleyJkGameDev.git
 
       # Gera o Snake Game para o perfil do GitHub
       - name: Gerar Snake Game
-        uses: Platane/snk@master
+        uses: Platane/snk@main  # <-- Alterado para main
         id: snake-gif
         with:
-          github_user_name: KleyJkGameDev # Seu usuário
+          github_user_name: KleyJkGameDev
           gif_out_path: dist/github-contribution-grid-snake.gif
           svg_out_path: dist/github-contribution-grid-snake.svg
 
@@ -44,11 +46,12 @@ jobs:
         with:
           commit_message: "Atualização automática do Snake Game"
           branch: main
-          commit_user_name: "KleyJkGameDev"
-          commit_user_email: "kleyjkdev62@gmail.com"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
           repository: .
           push_options: --force
-          commit_author: "KleyJkGameDev <kleyjkdev62@gmail.com>"
+          commit_author: "GitHub Actions <actions@github.com>"
+          skip_dirty_check: true
 
       # Publica os arquivos no GitHub Pages
       - name: Publicar no GitHub Pages
