@@ -35,12 +35,17 @@ jobs:
           git remote set-url origin https://KleyJkGameDev:${{ secrets.GH_PAT }}@github.com/KleyJkGameDev/KleyJkGameDev.git
 
       # Para as atualizações.
-      - name: Push to branch main
-        uses: ad-m/github-push-action@master
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          token: ${{ secrets.GH_PAT }}
+          commit_message: "Atualização automática do Snake Game"
           branch: main
-          force: true
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
+          repository: .
+          push_options: --force
+          commit_author: "GitHub Actions <actions@github.com>"
+
 
 
 
