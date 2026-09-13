@@ -78,13 +78,13 @@
 
 #
  
- <div align="center">
+<div align="center">
   <h3>* GitHub Stats *</h3>
   <br/>
   
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=KleyJkGameDev&hide_title=true&show_icons=true&include_all_commits=false&count_private=true&line_height=25&hide=issues&bg_color=000000&title_color=FF00F6&text_color=FFFFFF&border_radius=3&border_color=36123c&icon_color=FF00F6&theme=jolly&v=1" alt="KleyJkGameDev GitHub Stats" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=KleyJkGameDev&hide_title=true&show_icons=true&include_all_commits=false&line_height=25&hide=issues&bg_color=000000&title_color=FF00F6&text_color=FFFFFF&border_radius=3&border_color=36123c&icon_color=FF00F6&theme=jolly" alt="KleyJkGameDev GitHub Stats" />
 
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KleyJkGameDev&layout=compact&hide_title=false&count_private=true&langs_count=6&show_icons=true&title_color=FF00F6&hide=html,scss,less&bg_color=000000&text_color=FFFFFF&border_radius=3&border_color=36123c&v=1" alt="Top Languages" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KleyJkGameDev&layout=compact&hide_title=false&langs_count=6&show_icons=true&title_color=FF00F6&hide=html,scss,less&bg_color=000000&text_color=FFFFFF&border_radius=3&border_color=36123c" alt="Top Languages" />
 </div>
 
 
