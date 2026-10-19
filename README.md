@@ -1,58 +1,99 @@
 # 👩🏻‍💻 Kleyton Lima
 
-**`Desenvolvedor FullStack`**  
-**`Machine Learning`**  
+**`Desenvolvedor FullStack`**
+**`Machine Learning`**
 **`Análise de Dados`**
 
----
+#
+<div><p align="center" format="justify">Estudante de Engenharia de Computação no Instituto Federal do Maranhão (IFMA) e professor de matemática e inglês no Reforço Escolar Construir. Possuo experiência no desenvolvimento de projetos de inteligência artificial aplicados à gestão de estoque e vendas, criação de jogos para eventos escolares e desenvolvimento de sites.</p>
+</div>
 
-<p align="center">
-  Estudante de Engenharia de Computação no Instituto Federal do Maranhão (IFMA) e professor de matemática e inglês no Reforço Escolar Construir. Possuo experiência em desenvolvimento de software, análise de dados e inteligência artificial.
-</p>
-
----
+#
 
 <h3 align="left">Connect with me!</h3>
 
 <p align="left">
-  <a href="https://github.com/KleyJkGameDev" target="_blank" rel="noreferrer">
-    <img alt="GitHub" title="GitHub" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="https://instagram.com/kleytin_lima" target="_blank" rel="noreferrer">
-    <img alt="Instagram" title="Instagram" src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/kleyton-saldanha-a5319b303" target="_blank" rel="noreferrer">
-    <img alt="LinkedIn" title="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
+    <img align="right" alt="Hollow-Gif" title="Hollow" width="15%" src="https://github.com/user-attachments/assets/8aeae5cd-4c13-438f-99df-91303d2139f3" 
+/>
+    <a href="https://github.com/KleyJkGameDev">
+        <img 
+            alt="Seguidores" 
+            title="Me siga no GitHub" 
+            src="https://custom-icon-badges.demolab.com/github/followers/KleyJkGameDev?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=github&label=Seguidores&logoColor=white"
+        />
+    </a>
+    <a href="https://instagram.com/kleytin_lima">
+        <img 
+            alt="Siga-me" 
+            title="Siga-me no Instagram" 
+            src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"
+        />
+    </a>
+    <a href="https://www.linkedin.com/in/kleyton-saldanha-a5319b303" target="_blank" rel="noreferrer">
+        <img alt="LinkedIn" title="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+    </a>
+    
 </p>
 
 <h3 align="left">🤖 Linguagens e Tecnologias</h3>
 
-<p align="left">
-  <img alt="Python" title="Python" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
-  <img alt="Git" title="Git" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
-  <img alt="MySQL" title="MySQL" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" />
-  <img alt="Java" title="Java" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />
-  <img alt="C" title="C" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" />
-  <img alt="C#" title="C#" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />
-  <img alt="HTML5" title="HTML5" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
-  <img alt="CSS3" title="CSS3" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
-  <img alt="Pandas" title="Pandas" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original-wordmark.svg" />
-  <img alt="NumPy" title="NumPy" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original-wordmark.svg" />
-  <img alt="Scikit-learn" title="Scikit-learn" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" />
-  <img alt="Jupyter" title="Jupyter" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg" />
-</p>
+<div>
 
----
+<img align="left" alt="Git" title="Git" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" 
+/>
+<img align="left" alt="Python" title="Python" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" 
+/>
+<img align="left" alt="MatPlotLib" title="MatPlotLib" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matplotlib/matplotlib-original-wordmark.svg" 
+/>
+<img align="left" alt="Poetry" title="Poetry" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/poetry/poetry-original.svg" 
+/>
+<img align="left" alt="Sk_Learn" title="Sk_Learn" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" 
+/>
+<img align="left" alt="Pandas" title="Pandas" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original-wordmark.svg" 
+/>
+<img align="left" alt="Selenium" title="Selenium" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/selenium/selenium-original.svg" 
+/>
+<img align="left" alt="Jupyter" title="Jupyter" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg" 
+/>
+<img align="left" alt="Numpy" title="Numpy" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original-wordmark.svg" 
+/>
+<img align="left" alt="StreamLit" title="StreamLit" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/streamlit/streamlit-original-wordmark.svg" 
+/>
+<img align="left" alt="C" title="C" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" 
+/>
+<img align="left" alt="C#" title="C#" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" 
+/>
+<img align="left" alt="HTML" title="HTML" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" 
+/>
+<img align="left" alt="CSS" title="CSS" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" 
+/>
+<img align="left" alt="Java" title="Java" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" 
+/>
+<img align="left" alt="MySQL" title="MySQL" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" 
+/>
+</div>
 
+<br/>
+<br/>
+
+<div style="text-align: center;" align="center">
+
+#
+ 
 <div align="center">
   <h3>GitHub Stats</h3>
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=KleyJkGameDev&hide_title=true&show_icons=true&include_all_commits=false&line_height=25&hide=issues&bg_color=000000&title_color=FF00F6&text_color=ffffff&icon_color=FF00F6" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KleyJkGameDev&layout=compact&hide_title=false&langs_count=6&show_icons=true&title_color=FF00F6&text_color=ffffff&icon_color=FF00F6" />
+  <br/>
+  
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=KleyJkGameDev&hide_title=true&show_icons=true&include_all_commits=false&line_height=25&hide=issues&bg_color=000000&title_color=FF00F6&text_color=FFFFFF&border_radius=3&border_color=36123c&icon_color=FF00F6&theme=jolly" alt="KleyJkGameDev GitHub Stats" />
+
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KleyJkGameDev&layout=compact&hide_title=false&langs_count=6&show_icons=true&title_color=FF00F6&hide=html,scss,less&bg_color=000000&text_color=FFFFFF&border_radius=3&border_color=36123c" alt="Top Languages" />
 </div>
+
+
+#
 
 <picture align="center">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KleyJkGameDev/KleyJkGameDev/output/snake.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KleyJkGameDev/KleyJkGameDev/output/snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/KleyJkGameDev/KleyJkGameDev/output/snake.svg">
+  <img align="center" alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/KleyJkGameDev/KleyJkGameDev/output/snake.svg">
 </picture>
